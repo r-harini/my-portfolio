@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+
+:root{
+  --sidebar-flex:1.5;
+  --condiv-flex:6;
+  --fontsize-p:1.2rem;
+  --fontsize-nav:1.6rem;
+  --typing-font:3rem;
+  }
+  *
+  {
+  margin:0;
+  padding: 0;
+  }
+  body
+  {
+  font-family: 'Raleway';
+  }
+  .App
+  {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  }
+  /* .condiv class is for the right side content container*/
+  .condiv
+  {
+  padding: 100px ;
+  background-color: #f4f5f9;
+  flex:var(--condiv-flex);
+  }
+
+  nav{
+    padding: 60px 30px 0px 30px;
+    flex: var(--sidebar-flex);
+    
+  }
+
+  .profilepic{
+    display: block;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+
+  .aboutpic{
+    display: block;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    padding-top: 70px;
+    background-image: url("img/bg-5.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  }
+
+  .hanging-out{
+    height: stretch ;
+    display: block;
+  }
+
+  .experience-section{
+    height: 100vh;
+    
+  }
+
+  .academics-section{
+    height: 100vh;
+    
+  }
+
+  .skills-section{
+    height: 100vh;
+    
+  }
+
+  .projects-section{
+    height: 100vh;
+    
+  }
+  
+ .resume-thumb{
+   height: 300px;
+   width: 300px;
+   border-radius: 25%;
+   padding: 30px;
+ }
+
+ .resume-container {
+  display: inline-block;
+  
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+ .overlay {
+  position: absolute;
+  top: 10%;
+  bottom: 100%;
+  left: 10%;
+  right: 0;
+  height: 240px;
+  width: 240px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #092c38;
+  border-radius: 20%;
+}
+
+.resume-container:hover .overlay {
+  opacity: 0.75;
+  
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.all-skills{
+  padding: 5%;
+}
+
+.skills-container{
+  width: 80%;
+  background-color: rgba(145, 137, 137, 0.836);
+}
+
+.skill{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:white;
+  
+}
+
+.html{
+  width: 80%;
+  background-color: #65dac1;
+}
+
+.python{
+  width: 80%;
+  background-color: #65dac1;
+}
+
+.c{
+  width: 90%;
+  background-color: #65dac1;
+}
+
+.java{
+  width: 60%;
+  background-color: #65dac1;
+}
+
+.tensorflow{
+  width: 70%;
+  background-color: #65dac1;
+}
+
+.mysql{
+  width: 60%;
+  background-color: #65dac1;
+}
+
+.react{
+  width: 40%;
+  background-color: #65dac1;
+}
