@@ -7,6 +7,7 @@ import About from './contents/About';
 import Interests from './contents/Interests';
 import SlideRoutes from 'react-slide-routes';
 import Resume from './contents/Resume';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,7 +15,6 @@ function App() {
     <div className="container">
       <Navigation/>
       <br></br>
-      <center><h1>Portfolio under construction...</h1></center><br></br><br></br>
       
       <Route exact path="/">
         <Home/>
@@ -28,6 +28,8 @@ function App() {
       <Route path="/resume">
         <Resume/>
       </Route>
+
+      <Footer/>
     </div>
     </Router>
   );

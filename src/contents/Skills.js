@@ -5,7 +5,7 @@ export default class Skills extends Component {
         return (
             <div className="all-skills">
                 
-                <h2> Skills</h2>
+                <center><h1>Skills</h1></center>
                 <br/>
                 <h5>Python</h5>
                 <div class="skills-container">
@@ -16,7 +16,7 @@ export default class Skills extends Component {
                 <div class="skills-container">
                     <div class="skill java">60%</div>
                 </div>
-
+                
                 <h5>C, C++</h5>
                 <div class="skills-container">
                     <div class="skill c">90%</div>

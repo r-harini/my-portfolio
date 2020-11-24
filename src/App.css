@@ -15,6 +15,11 @@
   body
   {
   font-family: 'Raleway';
+  padding-top: 70px;
+    background-image: url("img/bg-9.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
   }
   .App
   {
@@ -51,19 +56,14 @@
     margin-right: auto;
     border-radius: 50%;
   }
+
   *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
   
-  body{
-    padding-top: 70px;
-    background-image: url("img/bg-5.jpg");
-    background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  }
+  
 
   .hanging-out{
     height: stretch ;
@@ -71,13 +71,13 @@
   }
 
   .experience-section{
-    height: 100vh;
-    
+    height: 120vh;
+    padding: 5%;
   }
 
   .academics-section{
     height: 100vh;
-    
+    padding: 5%;
   }
 
   .skills-section{
@@ -86,9 +86,27 @@
   }
 
   .projects-section{
-    height: 100vh;
-    
+    height: 150vh;
+    padding: 5%;
+    width: 100%;
+   display: block;
   }
+
+  .clubs-section{
+    height: 100vh;
+    padding:5%;
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  .volunteer-section{
+    height: 100vh;
+    padding:5%;
+    width: 100%;
+  }
+
+  
   
  .resume-thumb{
    height: 300px;
@@ -186,3 +204,8 @@
   width: 40%;
   background-color: #65dac1;
 }
+
+.social{
+  padding: 5%;
+}
+

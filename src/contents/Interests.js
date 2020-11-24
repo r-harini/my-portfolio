@@ -34,7 +34,15 @@ export default class Interests extends Component {
                 "Kolar.jpg"
             ],
             pet: [
-                "orange.jpg"
+                "orange.jpg",
+                "plants.jpg",
+                "sleepy.jpg",
+                "babies.jpg",               
+                "cozy.JPG",
+                "mewithhim.JPG",
+                "meagain.JPG",
+                "mcd.jpg"
+                
             ],
 
             read: [
@@ -47,14 +55,33 @@ export default class Interests extends Component {
                 "kindle.JPG"
             ],
             drawing: [
-                "journal.JPG",
-                "canvas.jpg"
+                "cat_pizza.JPG",
+                "fallen_angel.JPG",
+                "broken_wings.JPG",
+                "eternal_state.JPG",
+                "her.JPG",
+                "she_wolf.JPG",
+                "scraf_dude.JPG",
+                "cute.JPG",
+                "cry_river.JPG"
+            ],
+            gaming: [
+                "wii.JPG",
+                "cds.JPG",
+                "psp.JPG",
+                "tombraider.jpg",
+                "shadow.jpg",
+                "ghostofsparta.jpg",
+                "godofwar.jpg",
+                "locoroco.jpg"
+
             ]
 
         };
     }
     render() {
         return (<div>
+            <center><h1>INTERESTS</h1></center>
             <h3> Reading </h3>
             <Carousel breakPoints={breakPoints}>
                 {this.state.read.map(item => (
@@ -67,7 +94,14 @@ export default class Interests extends Component {
                     <Item><img class="hanging-out" src={require(`../img/drawing/${item}`)}/></Item>
                 ))}
             </Carousel>
-            <h3>Hanging out (?)</h3>
+            <h3>Gaming</h3>
+            <Carousel breakPoints={breakPoints}>
+                
+                {this.state.gaming.map(item => (
+                    <Item><img class="hanging-out" src={require(`../img/gaming/${item}`)}/></Item>
+                ))}
+            </Carousel>
+            <h3>Spending time with friends</h3>
             <Carousel breakPoints={breakPoints}>
                 {this.state.hanging.map(item => (
                     <Item><img class="hanging-out" src={require(`../img/hanging_out/${item}`)}/></Item>
@@ -79,7 +113,7 @@ export default class Interests extends Component {
                     <Item><img class="hanging-out" src={require(`../img/hamster/${item}`)}/></Item>
                 ))}
             </Carousel>
-
+            
         </div>)
     }
 }

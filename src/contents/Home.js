@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import profile from '../img/profile.jpg';
 import ReactTypingEffect from 'react-typing-effect';
+import Footer from '../components/Footer';
 
 class Home extends Component {
     render() {
@@ -8,7 +9,11 @@ class Home extends Component {
             <div>
                 <img src={profile} className="profilepic"></img>
                 <br></br>
-                <h3>Hello, I am Harini.</h3>
+                <center>
+                    <h3> An inquisitive 20 yr old who is extremely passionate about learning something new and challenging.</h3>
+                </center>
+                
+                
             </div>
         );
     }
