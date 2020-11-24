@@ -66,34 +66,35 @@
   
 
   .hanging-out{
-    height: stretch ;
+    max-width: 100%;
+    height: auto;
     display: block;
   }
 
   .experience-section{
-    height: 120vh;
+    overflow: visible;
     padding: 5%;
   }
 
   .academics-section{
-    height: 100vh;
+    overflow: visible;
     padding: 5%;
   }
 
   .skills-section{
-    height: 100vh;
+    overflow: visible;
     
   }
 
   .projects-section{
-    height: 150vh;
+    overflow: visible;
     padding: 5%;
     width: 100%;
    display: block;
   }
 
   .clubs-section{
-    height: 100vh;
+    overflow: visible;
     padding:5%;
     position: relative;
     width: 100%;
@@ -101,7 +102,7 @@
   }
 
   .volunteer-section{
-    height: 100vh;
+    overflow: visible;
     padding:5%;
     width: 100%;
   }

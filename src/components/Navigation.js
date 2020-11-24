@@ -7,7 +7,7 @@ class Navigation extends React.Component {
     render(){
         return(
             <Navbar bg="dark" variant="dark" fixed="top" >
-  <Navbar.Brand as={Link} to="/" className='m-auto'>
+  <Navbar.Brand as={Link} to="/my-portfolio" className='m-auto'>
         R. Harini
       </Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
