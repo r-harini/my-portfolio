@@ -16,16 +16,16 @@ function App() {
       <Navigation/>
       <br></br>
       
-      <Route exact path="/">
+      <Route exact path="/my-portfolio">
         <Home/>
       </Route>
-      <Route path="/about">
+      <Route path="/my-portfolio/about">
         <About/>
       </Route>
-      <Route path="/interests">
+      <Route path="/my-portfolio/interests">
         <Interests/>
       </Route>
-      <Route path="/resume">
+      <Route path="/my-portfolio/resume">
         <Resume/>
       </Route>
 

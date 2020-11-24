@@ -13,10 +13,10 @@ class Navigation extends React.Component {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="m-auto">
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/about">About</Nav.Link>
-            <Nav.Link as={Link} to="/interests">Interests</Nav.Link>
-            <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
+            <Nav.Link as={Link} to="/my-portfolio">Home</Nav.Link>
+            <Nav.Link as={Link} to="/my-portfolio/about">About</Nav.Link>
+            <Nav.Link as={Link} to="/my-portfolio/interests">Interests</Nav.Link>
+            <Nav.Link as={Link} to="/my-portfolio/resume">Resume</Nav.Link>
       
     </Nav>
     
