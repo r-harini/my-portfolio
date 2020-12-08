@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import {Link, animateScroll as scroll } from 'react-scroll';
 import Skills from './Skills';
+import { ExternalLink } from 'react-feather';
 
 
 
@@ -90,10 +91,11 @@ export default class Resume extends Component {
 
                 <div className="academics-section" id="academics">
                 <center><h1>Academics</h1></center>
-                    <h4>CGPA: </h4>9.33
+                    <h4>CGPA </h4><hr/>9.33
                     <br/>
                     <br/>
-                    <h4>Courses undertaken:</h4> 
+                    <br/>
+                    <h4>Courses undertaken</h4> <hr/>
                     <ul>
                         <li> Data Structures and Algorithms</li>
                         <li>Database Management Systems</li>
@@ -109,7 +111,8 @@ export default class Resume extends Component {
                         <li>Internet Web Programming</li>
                     </ul>
                     <br/>
-                    <h4>Top Scored subjects:</h4>
+                    <br/>
+                    <h4>Top Scored subjects</h4><hr/>
                     <ul>
                         <li> Data Structures and Algorithms</li>
                         <li>Operating Systems</li>
@@ -130,15 +133,15 @@ export default class Resume extends Component {
 
                     <br/>
 
-                    <h3 ><a href="https://github.com/r-harini/Fake-or-Real-News-Detection" style={{color: 'black'}}> Optimized Fake News Detections</a></h3>
+                    <h3 ><a href="https://github.com/r-harini/Fake-or-Real-News-Detection" style={{color: 'black'}}> Optimized Fake News Detection </a><ExternalLink/></h3>
                     <h6 style={{color: 'grey'}}>Natural Language Processing, Neural Networks, Tensorflow GPU</h6>
                     <p>Aims at classifying fake news pertaining to the Presidential elections. With the help of GloVe embeddings to extract weights of the words, neural networks with LSTM layers have been incorporated to get an accuracy of 99.8%.
-                        The training of the neural network has been optimized with the help of GPU and distributed training. Furhter compared the performance with ML models such as Logistic regression, SVm and Naive Bayes.
+                        The training of the neural network has been optimized with the help of GPU and distributed training. Furhter compared the performance with ML models such as Logistic regression, SVM and Naive Bayes.
                     </p>
 
                     <br/>
 
-                    <h3><a href="https://github.com/r-harini/Blood_Bank_Donation_System" style={{color: 'black'}}> Blood Bank Donation System </a></h3>
+                    <h3><a href="https://github.com/r-harini/Blood_Bank_Donation_System" style={{color: 'black'}}> Blood Bank Donation System </a> <ExternalLink/></h3>
                     <h6 style={{color: 'grey'}}>HTML, CSS, MySQL, PHP</h6>
                     <p>Online portal for blood donors, hospitals and blood banks to donate, store and supply to patients according to their blood types and needs.
                          In the portal, the donor can specify the quantity and the corresponding blood type to be donated. Further, the blood bank can keep track of the total quantity available and the hospitals 
@@ -146,20 +149,26 @@ export default class Resume extends Component {
 
                     <br/>
 
-                    <h3><a href="https://github.com/r-harini/Product-Price-Prediction" style={{color: 'black'}}> Price Prediction System </a></h3>
-                    <h6 style={{color: 'grey'}}>Natural Language Processing, XGBoost, HTML, CSS, Bootstrap, Flask Server</h6>
-                    <p>System for sellers to receive suggested selling prices to make maximum profit based on customer reviews, shipping fee and product description. HTML, CSS and Flask Server used for the front end and hosting the model.</p>
-
-                    <br/>
-
-                    <h3><a href="https://github.com/r-harini/Traffic-Sign-Recognition" style={{color: 'black'}}> Traffic Sign Recognition </a></h3>
+                    <h3><a href="https://github.com/r-harini/Traffic-Sign-Recognition" style={{color: 'black'}}> Traffic Sign Recognition </a><ExternalLink/></h3>
                     <h6 style={{color: 'grey'}}>Convolutional Neural Networks, Tensorflow</h6>
                     <p>Implemented several neural network models such as LeNet, GridSearch,etc. to classify 43 classes of traffic sign with over 50,000 images.
                         The model attained an accuracy of 97.31%. Further, a comparison was drawn between various ML models such as SVM and Random Forest to analyze the differences.</p>
 
                     <br/>
 
-                    <h3><a href="https://github.com/r-harini/Product-Price-Prediction" style={{color: 'black'}}> Creating a Bash-like Shell from Scratch </a></h3>
+                    <h3><a href="https://github.com/r-harini/OneStop" style={{color: 'black'}}>OneStop - One Place to Find All </a><ExternalLink/></h3>
+                    <h6 style={{color: 'grey'}}>Django, SQLite, OpenWeather API, CSS</h6>
+                    <p> A web application for all functionalities such as viewing the weather conditions of various cities, calendar with the ability to add, update and delete events and a To-Do list to track all the tasks. Currently working on integrating Google Calendar API for event creation and update.</p>
+
+                    <br/>
+
+                    <h3><a href="https://github.com/r-harini/Product-Price-Prediction" style={{color: 'black'}}> Price Prediction System </a><ExternalLink/></h3>
+                    <h6 style={{color: 'grey'}}>Natural Language Processing, HTML, CSS, Bootstrap, Flask Server</h6>
+                    <p>System for sellers to receive suggested selling prices to make maximum profit based on customer reviews, shipping fee and product description. HTML, CSS and Flask Server used for the front end and hosting the model.</p>
+
+                    <br/>
+
+                    <h3><a href="https://github.com/r-harini/Bash-Like-shell-From-Scratch" style={{color: 'black'}}> Creating a Bash-like Shell from Scratch </a><ExternalLink/></h3>
                     <h6 style={{color: 'grey'}}>C</h6>
                     <p> Implementing all the basic functionalities of a Bash Shell such as ls, pwd, exit. Further implemented functionalities related to file handling, expression calculations and tracking the log of each commands</p>
 
@@ -168,6 +177,14 @@ export default class Resume extends Component {
                     <h3>Voice Controlled Disaster Management Car</h3>
                     <h6 style={{color: 'grey'}}>Arduino</h6>
                     <p> Designed and implemented a bluetooth voice-controlled car with added functionalities such as adjusting the headlights with respect to the ambient lighting, obstacle detection along with fire detection and alarm. In cases of disasters, this bot can travel to dark and isolated places.</p>
+                    
+                    <br/>
+                    
+                    <h3><a href="https://github.com/r-harini/Exercise-Tracker" style={{color: 'black'}}>Exercise Tracker - A mini Project </a><ExternalLink/></h3>
+                    <h6 style={{color: 'grey'}}>Mongo DB, Express, React JS, Node</h6>
+                    <p>A MERN stack web application to keep track of the users and corresponding exercises along with timestamps.</p>
+
+                    
 
                 </div>
                 <div className="clubs-section" id="clubs">

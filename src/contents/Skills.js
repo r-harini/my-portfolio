@@ -32,7 +32,7 @@ export default class Skills extends Component {
                     <div class="skill mysql">60%</div>
                 </div>
 
-                <h5>HTML, CSS, JavaScript, php</h5>
+                <h5>HTML, CSS, JavaScript, PHP </h5>
                 <div class="skills-container">
                     <div class="skill html">80%</div>
                 </div>
