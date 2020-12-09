@@ -10,7 +10,7 @@ class Home extends Component {
                 <img src={profile} className="profilepic"></img>
                 <br></br>
                 <center>
-                    <h3> An inquisitive 20 yr old who is extremely passionate about learning something new and challenging.</h3>
+                    <h3><ReactTypingEffect speed={100} typingDelay={1000} text={["An inquisitive 20 yr old who is extremely passionate about learning something new and challenging."]}/></h3>
                 </center>
                 
                 
